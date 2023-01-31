@@ -35,7 +35,7 @@ header > img{
 .container{
     width: 60%;
     margin: 0 auto;
-    height: 600px;
+    height: 550px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-bottom: 20px;
@@ -117,6 +117,7 @@ li{
     border: 2px solid red;
 }
 
+/* LABLES */
 .lable{
     height: 20px;
     width: 50px;
@@ -125,6 +126,7 @@ li{
     color: white;
 }
 
+/* LABEL COLORS */
 .lable.blue-lable{
     background-color: #45ABEA;
 }
@@ -134,9 +136,17 @@ li{
 }
 
 .lable.green-lable{
-    background-color: #64C0A9;
+    background-color: #B0C926;
 }
 
 .lable.orange-lable{
     background-color: #F29E33;
+}
+
+.lable.pink-lable{
+    background-color: #D863A1;
+}
+
+.lable.darkgreen-lable{
+    background-color: #64C0A9;
 }
