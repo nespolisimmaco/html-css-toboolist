@@ -77,11 +77,40 @@ nav{
 /* LIST */
 .todo-list{
     list-style-type: none;
-    
 }
 
 .heading-of-list{
     font-size: 1.5rem;
     font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* MARK */
+.mark{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.mark.check{
+    color: green;
+    border: 2px solid green;
+}
+
+.lable{
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.lable.blue-lable{
+    background-color: #45ABEA;
 }
 
