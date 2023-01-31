@@ -40,6 +40,7 @@ header > img{
     border-bottom-right-radius: 5px;
     margin-bottom: 20px;
     background-color: white;
+    padding: 30px 40px;
 }
 
 /* Navigation bar */
@@ -71,5 +72,16 @@ nav{
     border: 1px solid gray;
     background-color: white;
     color: grey;
+}
+
+/* LIST */
+.todo-list{
+    list-style-type: none;
+    
+}
+
+.heading-of-list{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
