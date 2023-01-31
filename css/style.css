@@ -75,6 +75,10 @@ nav{
 }
 
 /* LIST */
+.task-list{
+    margin-bottom: 30px;
+}
+
 .todo-list{
     list-style-type: none;
 }
@@ -83,6 +87,10 @@ nav{
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+li{
+    margin-bottom: 20px;
 }
 
 /* MARK */
@@ -97,9 +105,16 @@ nav{
     margin-right: 5px;
 }
 
+/* COMPLETED */
 .mark.check{
     color: green;
     border: 2px solid green;
+}
+
+/* NOT COMPLETED */
+.mark.cross{
+    color: red;
+    border: 2px solid red;
 }
 
 .lable{
@@ -114,3 +129,14 @@ nav{
     background-color: #45ABEA;
 }
 
+.lable.purple-lable{
+    background-color: #9C72E4;
+}
+
+.lable.green-lable{
+    background-color: #64C0A9;
+}
+
+.lable.orange-lable{
+    background-color: #F29E33;
+}
